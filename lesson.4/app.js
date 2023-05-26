@@ -61,7 +61,5 @@ for (let i = 0; i < btn1.length; i++){
     btn1[i].onclick = function () {
     document.body.style.background = btn1[i].innerText
     }
-}
-
-
+}  
 
