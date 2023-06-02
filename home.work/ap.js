@@ -50,6 +50,15 @@ renderUser(user1)
 //----------4-----------------
 const btnLogOut = document.getElementById('logOut')
 const divUserInfo = document.getElementById('user-info')
+const btnLogin = document.getElementById('login')
 btnLogOut.onclick = () => {
     divUserInfo.style.display = 'none'
+    btnLogin.style.display = 'block'
+    btnLogOut.style.display = 'none'
+}
+
+btnLogin.onclick = () => {
+    divUserInfo.style.display = 'block'
+    divUserInfo.style.display = 'flex'
+    btnLogin.innerText = 'LOGOUT'
 }
